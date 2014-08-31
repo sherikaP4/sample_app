@@ -23,12 +23,12 @@ describe "Static pages" do
   describe "Help page" do
 
     it "should have the content 'Help'" do
-      visit '/static_pages/help'
+      visit '/static_pages/help.html.erb'
       expect(page).to have_content('Help')
     end
 
     it "should have the title 'Help'" do
-      visit '/static_pages/help'
+      visit '/static_pages/help.html.erb'
       expect(page).to have_title("Ruby on Rails Tutorial Sample App | Help")
     end
   end
@@ -41,7 +41,7 @@ describe "Static pages" do
     end
 
     it "should have the title 'About Us'" do
-      visit '/static_pages/about'
+      visit '/static_pages/about.html.erb'
       expect(page).to have_title("Ruby on Rails Tutorial Sample App | About Us")
     end
   end
@@ -49,12 +49,12 @@ describe "Static pages" do
   describe "Contact page" do
 
     it "should have the content 'Contact'" do
-      visit '/static_pages/contact'
+      visit '/static_pages/contact.html.erb'
       expect(page).to have_content('Contact')
     end
 
     it "should have the title 'Contact'" do
-      visit '/static_pages/contact'
+      visit '/static_pages/contact.html.erb'
       expect(page).to have_title("Ruby on Rails Tutorial Sample App | Contact")
     end
   end
