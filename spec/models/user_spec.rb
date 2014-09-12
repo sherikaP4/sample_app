@@ -37,6 +37,8 @@ describe User do
         expect(@user).not_to be_valid
       end
     end
+
+
   end
 
   describe "when email format is valid" do
