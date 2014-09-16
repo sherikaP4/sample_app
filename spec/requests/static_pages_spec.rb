@@ -54,7 +54,7 @@ end
       expect(page).to have_title(full_title('About Us'))
       click_link "Help"
 expect(page).to have_title(full_title('Help'))
-      expect(page).to help
+      
       
      
       click_link "Home"
