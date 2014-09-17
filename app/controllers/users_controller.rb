@@ -25,5 +25,8 @@ class UsersController < ApplicationController
                                  :password_confirmation)
   end
 
+  def edit
+    @user = User.find(params[:id])
+  end
 
 end
