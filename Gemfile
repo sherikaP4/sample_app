@@ -8,6 +8,7 @@ gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.1.2'
 
 
+
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
@@ -20,7 +21,7 @@ group :test do
 
 end
 
-gem 'sass-rails', '4.0.1'
+gem 'sass-rails', '4.0.3'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
