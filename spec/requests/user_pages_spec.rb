@@ -54,25 +54,7 @@ describe "signup" do
 end
 end
 
-  describe "edit" do
-    let(:user) { FactoryGirl.create(:user) }
-    #before do
-     # sign_in user
-      #visit edit_user_path(user)
-    #end
-    before { visit edit_user_path(user) }
 
-    describe "page" do
-      it { should have_content("Update your profile") }
-      it { should have_title("Edit user") }
-      it { should have_link('change', href: 'http://gravatar.com/emails') }
-    end
-
-    describe "with invalid information" do
-      before { click_button "Save changes" }
-
-      it { should have_content('error') }
-    end
 
     describe "with valid information" do
       let(:new_name)  { "New Name" }
@@ -91,11 +73,29 @@ end
       specify { expect(user.reload.name).to  eq new_name }
       specify { expect(user.reload.email).to eq new_email }
     end
+
+describe "edit" do
+  let(:user) { FactoryGirl.create(:user) }
+  before do
+   sign_in user
+   visit edit_user_path(user)
   end
 
+
+  describe "page" do
+    it { should have_content("Update your profile") }
+    it { should have_title("Edit user") }
+    it { should have_link('change', href: 'http://gravatar.com/emails') }
+  end
+
+  describe "with invalid information" do
+    before { click_button "Save changes" }
+
+    it { should have_content('error') }
+  end
 end
 
-
+end
 
 
 
