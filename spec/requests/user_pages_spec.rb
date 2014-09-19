@@ -26,10 +26,8 @@ describe "User pages" do
         end
       end
     end
-  end
 
-
- describe "delete links" do
+    describe "delete links" do
 
       it { should_not have_link('delete') }
 
@@ -49,6 +47,10 @@ describe "User pages" do
         it { should_not have_link('delete', href: user_path(admin)) }
       end
     end
+
+  end
+
+
 
 
   describe "profile page" do
