@@ -49,7 +49,7 @@ describe "User pages" do
         it { should_not have_link('delete', href: user_path(admin)) }
       end
     end
-  end
+
 
   describe "profile page" do
     let(:user) { FactoryGirl.create(:user) }
@@ -143,9 +143,9 @@ describe "edit" do
     specify { expect(user.reload.email).to eq new_email }
   end
 end
-
-
 end
+
+
 
 
 
