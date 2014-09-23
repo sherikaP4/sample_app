@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ed5d2d-7527-41b1-8eb9-076493b4ccf6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/relationship.rb" afterPath="$PROJECT_DIR$/app/models/relationship.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/relationship_spec.rb" afterPath="$PROJECT_DIR$/spec/models/relationship_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
     </list>
@@ -31,23 +29,24 @@
       <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1260">
-              <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
-                <element signature="e#872#976#0" expanded="false" />
-                <element signature="e#1017#1088#0" expanded="false" />
-                <element signature="e#1129#1201#0" expanded="false" />
-                <element signature="e#1238#1314#0" expanded="false" />
-                <element signature="e#1358#1656#0" expanded="false" />
-                <element signature="e#1698#1940#0" expanded="false" />
-                <element signature="e#1991#2178#0" expanded="false" />
-                <element signature="e#2222#2421#0" expanded="false" />
-                <element signature="e#2477#2572#0" expanded="false" />
-                <element signature="e#2621#2728#0" expanded="false" />
-                <element signature="e#2779#3225#0" expanded="false" />
-                <element signature="e#3376#4366#0" expanded="false" />
-                <element signature="e#4072#4359#0" expanded="false" />
-                <element signature="e#4456#4515#0" expanded="false" />
+                <element signature="e#962#1066#0" expanded="false" />
+                <element signature="e#1107#1178#0" expanded="false" />
+                <element signature="e#1219#1291#0" expanded="false" />
+                <element signature="e#1328#1404#0" expanded="false" />
+                <element signature="e#1448#1746#0" expanded="false" />
+                <element signature="e#1788#2030#0" expanded="false" />
+                <element signature="e#2081#2268#0" expanded="false" />
+                <element signature="e#2312#2511#0" expanded="false" />
+                <element signature="e#2567#2662#0" expanded="false" />
+                <element signature="e#2711#2818#0" expanded="false" />
+                <element signature="e#2869#3315#0" expanded="false" />
+                <element signature="e#3466#4456#0" expanded="false" />
+                <element signature="e#4162#4449#0" expanded="false" />
+                <element signature="e#4546#4605#0" expanded="false" />
+                <element signature="e#4857#5024#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -56,8 +55,8 @@
       <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92957747" vertical-offset="174" max-vertical-offset="780">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.14084508" vertical-offset="0" max-vertical-offset="840">
+              <caret line="4" column="99" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -861,31 +860,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1260">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding>
-            <element signature="e#872#976#0" expanded="false" />
-            <element signature="e#1017#1088#0" expanded="false" />
-            <element signature="e#1129#1201#0" expanded="false" />
-            <element signature="e#1238#1314#0" expanded="false" />
-            <element signature="e#1358#1656#0" expanded="false" />
-            <element signature="e#1698#1940#0" expanded="false" />
-            <element signature="e#1991#2178#0" expanded="false" />
-            <element signature="e#2222#2421#0" expanded="false" />
-            <element signature="e#2477#2572#0" expanded="false" />
-            <element signature="e#2621#2728#0" expanded="false" />
-            <element signature="e#2779#3225#0" expanded="false" />
-            <element signature="e#3376#4366#0" expanded="false" />
-            <element signature="e#4072#4359#0" expanded="false" />
-            <element signature="e#4456#4515#0" expanded="false" />
+            <element signature="e#962#1066#0" expanded="false" />
+            <element signature="e#1107#1178#0" expanded="false" />
+            <element signature="e#1219#1291#0" expanded="false" />
+            <element signature="e#1328#1404#0" expanded="false" />
+            <element signature="e#1448#1746#0" expanded="false" />
+            <element signature="e#1788#2030#0" expanded="false" />
+            <element signature="e#2081#2268#0" expanded="false" />
+            <element signature="e#2312#2511#0" expanded="false" />
+            <element signature="e#2567#2662#0" expanded="false" />
+            <element signature="e#2711#2818#0" expanded="false" />
+            <element signature="e#2869#3315#0" expanded="false" />
+            <element signature="e#3466#4456#0" expanded="false" />
+            <element signature="e#4162#4449#0" expanded="false" />
+            <element signature="e#4546#4605#0" expanded="false" />
+            <element signature="e#4857#5024#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92957747" vertical-offset="174" max-vertical-offset="780">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.14084508" vertical-offset="0" max-vertical-offset="840">
+          <caret line="4" column="99" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="99" />
           <folding />
         </state>
       </provider>
